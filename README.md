@@ -1,5 +1,7 @@
 ## Materialistic for Hacker News
-Material design [Hacker News] client for Android, uses official [HackerNews/API], [Dagger] for dependency injection and [Robolectric] for unit testing.
+[![Java CI with Gradle](https://github.com/hiqua/tearialistic/actions/workflows/gradle.yml/badge.svg)](https://github.com/hiqua/tearialistic/actions/workflows/gradle.yml)
+
+Material design [Hacker News] clientfor Android, uses official [HackerNews/API], [Dagger] for dependency injection and [Robolectric] for unit testing.
 
 [![Get it on Google Play][Play Store Badge]][Play Store]
 
