@@ -106,7 +106,7 @@ public class ItemActivityTest {
         activity = controller.get();
         verify(hackerNewsClient).getItem(eq("1"),
                 eq(ItemManager.MODE_DEFAULT),
-                any(ResponseListener.class));
+                any(ItemActivity.ItemResponseListener.class));
     }
 
     @Test
@@ -155,7 +155,7 @@ public class ItemActivityTest {
         activity.recreate();
         verify(hackerNewsClient, never()).getItem(any(),
                 eq(ItemManager.MODE_DEFAULT),
-                any(ResponseListener.class));
+                any(ItemActivity.ItemResponseListener.class));
     }
 
     @Test
